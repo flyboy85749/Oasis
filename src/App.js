@@ -1,26 +1,27 @@
 import React from 'react'
-import './App.css'
+import '../src/scss/style.css';
 
 function Header() {
   return (
     <header>
-      <nav class="flex flex-jc-sb flex-ai-c">
-        <a href="/" class="header__logo">
+      <nav className="flex flex-jc-sb flex-ai-c">
+        <a href="/" className="header__logo">
           <img src="images/logo.png" alt="The Oasis Church"
         /></a>
 
-        <a href="#" class="header__menu">
+        <a href="#" className="header__menu">
           <span></span>
           <span></span>
           <span></span>
         </a>
 
-        <div class="header__links">
-          <a href="#">Home</a>
-          <a href="#">About</a>
-          <a href="#">Contact</a>
-          <a href="#">Blog</a>
-          <a href="#">Careers</a>
+        <div className="header__links">
+          <a href="/index">Home</a>
+          <a href="/about">About</a>
+          <a href="/contact">Contact</a>
+          <a href="/reading-plan">Reading Plan</a>
+          <a href="/events">Events</a>
+          <a href="/sermons">Sermons</a>
         </div>
       </nav>
     </header>
