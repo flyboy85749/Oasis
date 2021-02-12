@@ -7,7 +7,7 @@
   &__logo {
 
       img {
-        border-radius: 50px;
+        border-radius: 50%;
       }
 
   }
@@ -19,7 +19,7 @@
       display: block;
       width: 26px;
       height: 2px;
-      background-color: $darkBlue;
+      background-color: $blueGreen;
 
       &:not(:last-child) {
         margin-bottom: 3px;
@@ -29,7 +29,9 @@
 
   &__links {
     a {
+      color: $vibrantPink;
       font-size: $font-sm;
+      margin: 20px;
     }
   }
 }
