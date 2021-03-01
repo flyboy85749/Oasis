@@ -10,9 +10,9 @@ html {
 }
 
 body {
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
-  background-color: #181414;
+  background-color: #f8f5f5;
   font-family: 'Open Sans', sans-serif;
   font-size: 1.125rem;
   color: #AD8E03;
@@ -54,6 +54,7 @@ a, a:visited, a:hover {
 
 .header__logo img {
   border-radius: 50%;
+  margin: 20px;
 }
 
 .header__menu > span {
